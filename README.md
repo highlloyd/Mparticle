@@ -28,7 +28,7 @@ chmod u+x S3backup.sh
 ```
 Run the script
 ```bash
-./run.sh
+./S3backup.sh
 ```
 Make the script run everyday:
 ```bash
