@@ -36,7 +36,7 @@ crontab -e
 ```
 Press I to switch to insert mode and add and edit this line:
 ```
-0 0 * * * /full/path/to/script/S3backup.sh.sh
+0 0 * * * /full/path/to/script/S3backup.sh
 ```
 
 # What this template project contains
