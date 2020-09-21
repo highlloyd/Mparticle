@@ -12,15 +12,15 @@ end of the script run
 # How to use it
 
 This bash script requires:
-[S3CMD](https://help.dreamhost.com/hc/en-us/articles/215916627-Installing-S3cmd) to upload the backup files to S3
-[Mailutils](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-16-04) to send email when script is completed
-[PV](https://www.cyberciti.biz/open-source/command-line-hacks/pv-command-examples/) to show a progress bar and monitor job status
+* [S3CMD](https://help.dreamhost.com/hc/en-us/articles/215916627-Installing-S3cmd) to upload the backup files to S3
+* [Mailutils](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-16-04) to send email when script is completed
+* [PV](https://www.cyberciti.biz/open-source/command-line-hacks/pv-command-examples/) to show a progress bar and monitor job status
 
 If those requirements are not installed the script will exit with an error.
 
 Clone the repository
 ```bash
-git clone https://github.com/highlloyd/Mparticle && cd SADA/
+git clone https://github.com/highlloyd/Mparticle && cd Mparticle/
 ```
 Make the script executable
 ```bash
